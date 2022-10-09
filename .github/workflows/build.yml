@@ -43,6 +43,7 @@ jobs:
         build-args: |-
           RELEASE=${{ matrix.release }}
           PROJECT=neutron
+          PROJECT_REPO=https://github.com/openstack/neutron
           PROJECT_REF=${{ env.PROJECT_REF }}
           EXTRAS=
           PROFILES=openvswitch vpn
